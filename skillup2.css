@@ -297,3 +297,91 @@ footer {
   line-height: 60px;
   font-size: 16px;
 }
+
+@media screen and (max-width: 767px) {
+  * {
+    margin: 0 auto;
+  }
+
+  header {
+    width: 90%;
+  }
+
+  .headline {
+    width: 90%;
+  }
+
+  .main-visual {
+    width: 90%;
+  }
+
+  main {
+    width: 90%;
+  }
+
+  .item-portfolio {
+    width: 90%;
+  }
+
+  .item-title {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .boxes {
+    width: 90%;
+    display: block;
+  }
+
+  .box1,
+  .box3,
+  .box5 {
+    display: none;
+  }
+
+  .box2,
+  .box4,
+  .box6 {
+    width: 90%;
+    margin: 0 auto 10px;
+  }
+
+  .main-content2 {
+    width: 90%;
+  }
+
+  .item-feature {
+    width: 90%;
+  }
+
+  .strength {
+    width: 90%;
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 90px;
+  }
+  .strength-item {
+    margin: 0 auto;
+    padding-bottom: 10px;
+  }
+
+  .item-profile {
+    width: 90%;
+  }
+
+  .my-profile {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .profile-title {
+    text-align: center;
+  }
+
+  .profile-text {
+    text-align: center;
+  }
+}
